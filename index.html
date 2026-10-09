@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Install for Windows</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
     </header>
 
-    <h1>WELCOME TO MY WEBSITE</h1>
+    <h1 id="welcomeTextId">WELCOME TO MY WEBSITE</h1>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas tempore cumque iste eligendi blanditiis.
         Delectus eaque ut earum aperiam quasi porro minus, alias dolorem totam modi voluptas maiores. Quasi!
@@ -75,27 +76,30 @@
         <li>grape</li>
     </ol>
 
-    <ul>
-        <h3>List of colors</h3>
-        <li>Red</li>
-        <li>blue</li>
-        <li>yellow</li>
-        <li>pink, and variations of pink includes
-            <ol>
-                <li>baby pink</li>
-                <li>tilt pink</li>
-                <li>grey pink</li>
-            </ol>
-        </li>
+    <div class="colors">
+        <ul id="primaryColor">
+            <h3>List of primary colors</h3>
+            <li>Red</li>
+            <li>blue</li>
+            <li>yellow</li>
+        </ul>
+    
+        <ul id="secondaryColor">
+            <h3>List of secondary colors</h3>
+            <li>Green</li>
+            <li>Orange</li>
+            <li>Violet</li>
+        </ul>
+    
+        <ul id="tertiaryColor">
+            <h3>List of tertiary colors</h3>
+            <li>Black</li>
+            <li>White</li>
+        </ul>
+    </div>
 
 
-
-        <li>black</li>
-        <li>green</li>
-    </ul>
-
-
-    <h1>My Profile</h1>
+    <h1 id="profileTextId">My Profile</h1>
     <ul>
         <li>My Hobbies
             <ul>
@@ -121,6 +125,7 @@
 
     </ul>
 
+    <a href="google.com">Google site</a>
     <!-- Forms -->
     <div style="margin-left: 3em;">
         <form action="#" method="post">

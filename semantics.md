@@ -6,6 +6,9 @@ Maintainability — developers can understand the page structure more easily.
 Code quality — HTML describes the content instead of relying on meaningless <div> elements.
 User-agent behavior — browsers and other tools can identify important regions of the document.
 
+
+
+
 form
 formaction
 formmethod

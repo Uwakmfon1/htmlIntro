@@ -1,0 +1,44 @@
+
+/* selector {
+    property : value;
+} */
+
+
+
+.colors{
+    background-color: black;
+    height: fit-content;
+    padding: 2em;
+}
+
+#primaryColor{
+    background-color: hsl(0, 100%, 50%);;
+    color: white;
+}
+
+#secondaryColor {
+    background-color: green;
+    color: white;
+}
+
+#tertiaryColor {
+    background-color:white;
+    color: red;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+p{
+    border: 5px solid black;
+    text-align: start;
+    
+}
+
+a{
+text-decoration: none;
+}
+
+/* css box model */
